@@ -1,6 +1,4 @@
-import { warn } from "console";
-import { Document } from "mongoose";
-import { UserModel } from "../models/user.model";
+import { UserModel, type UserInput } from "../models/user.model";
 
 export const createUser = async (input: UserInput) => {
   try {

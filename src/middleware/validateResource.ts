@@ -9,6 +9,7 @@ export const validate =
         query: req.query,
         params: req.params,
       });
+      next();
     } catch (e) {
       if (e instanceof ZodError) {
         return res.status(400).send(e.message);
