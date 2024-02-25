@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "src/app.ts"
+    "dev": "bun --watch run src/app.ts"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
@@ -40,4 +40,3 @@
     "zod": "^3.22.4"
   }
 }
-
